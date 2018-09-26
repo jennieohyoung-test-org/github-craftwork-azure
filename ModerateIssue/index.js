@@ -46,7 +46,7 @@ async function postIssueComment(
     owner,
     repo: repository,
     number,
-    body: `Hello from Azure Functions! Action is \`${action}\` for appId \`${appId}\`.`
+    body: `Just wanted to say hi!.`
   });
   return result;
 }
