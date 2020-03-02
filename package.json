@@ -12,7 +12,7 @@
     "url": "git+https://github.com/jennieohyoung-test-org/github-craftwork-azure.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@jennieohyoung"
+    "registry":"https://npm.pkg.github.com/@jennieohyoung-test-org"
   },
   "keywords": [
     "serverless",
