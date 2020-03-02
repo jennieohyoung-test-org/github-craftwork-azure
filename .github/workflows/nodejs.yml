@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-        registry-url: https://npm.pkg.github.com
+        registry-url: https://npm.pkg.github.com/
         scope: '@jennieohyoung'
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -30,6 +30,10 @@ jobs:
     - name: npm try to publish the package if it's a new version
       continue-on-error: true
       run: npm publish
+      with:
+        node-version: ${{ matrix.node-version }}
+        registry-url: https://npm.pkg.github.com/
+        scope: '@jennieohyoung'
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
