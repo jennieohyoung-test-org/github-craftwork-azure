@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeffhollan/functions-test-samples.git"
+    "url": "git+https://github.com/jennieohyoung-test-org/github-craftwork-azure.git"
   },
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/@jennieohyoung"
@@ -23,9 +23,9 @@
   "author": "Jeff Hollan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeffhollan/functions-test-samples/issues"
+    "url": "https://github.com/jennieohyoung-test-org/github-craftwork-azure/issues"
   },
-  "homepage": "https://github.com/jeffhollan/functions-test-samples#readme",
+  "homepage": "https://github.com/jennieohyoung-test-org/github-craftwork-azure#readme",
   "dependencies": {
     "@octokit/rest": "^15.12.0",
     "axios": "^0.18.0",
