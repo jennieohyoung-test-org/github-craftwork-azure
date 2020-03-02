@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/jeffhollan/functions-test-samples.git"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@jennieohyoung"
+  },
   "keywords": [
     "serverless",
     "test",
